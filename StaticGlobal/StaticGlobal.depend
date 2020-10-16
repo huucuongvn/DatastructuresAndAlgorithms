@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1601224177 source:d:\datastructuresandalgorithms\recursion\staticglobal\main.c
+	<stdio.h>
+	<stdlib.h>
+

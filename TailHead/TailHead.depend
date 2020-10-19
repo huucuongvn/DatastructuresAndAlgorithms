@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1601200973 source:d:\datastructuresandalgorithms\tailhead\main.c
-	<stdio.h>
-	<stdlib.h>
-
-1601203642 source:d:\datastructuresandalgorithms\recursion\tailhead\main.c
-	<stdio.h>
-	<stdlib.h>
-

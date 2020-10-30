@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 struct Array {
-    int *A;
+    int A[10];
     int size;
     int length;
 };
@@ -30,7 +30,7 @@ int RBinarySearch(int a[],int l, int h, int key) {
 
 int main()
 {
-    struct Array arr={2,3,4,5,6};
+    struct Array arr={{2,3,4,5,6},10,5};
     printf("%d\n", RBinarySearch(arr.A,0,arr.length,5));
     Display(arr);
     return 0;

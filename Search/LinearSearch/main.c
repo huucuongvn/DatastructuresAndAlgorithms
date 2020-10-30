@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 struct Array {
-    int *A;
+    int A[10];
     int size;
     int length;
 };
@@ -32,7 +32,7 @@ int linearSearch(struct Array *arr,int key) {
 }
 int main()
 {
-    struct Array arr={2,3,4,5,6};
+    struct Array arr={{2,3,4,5,6},10,5};
     printf("%d\n", linearSearch(&arr,5));
     display(arr);
     return 0;

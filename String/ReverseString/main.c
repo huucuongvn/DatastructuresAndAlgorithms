@@ -3,6 +3,7 @@
 
 int main()
 {
+    // using method 1
     char A[]="python";
     char B[7];
     int i,j;
@@ -12,7 +13,20 @@ int main()
         B[j]=A[i];
     }
     B[j]='\0';
-    printf("%s", B);
+    printf("%s\n", B);
 
-    return 0;
+    // using method 2
+    char C[]="operation";
+    int m,n;
+    char t;
+    for(m=0; C[m]!='\0'; m++) {}
+    m--;
+    for(n=0; n<m; n++, m--) {
+        t=C[n];
+        C[n]=C[m];
+        C[m]=t;
+    }
+    printf("%s\n", C);
+
+    return 0;	
 }

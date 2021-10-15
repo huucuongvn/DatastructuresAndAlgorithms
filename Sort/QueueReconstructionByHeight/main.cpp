@@ -63,11 +63,12 @@ public:
 int main()
 {
     Solution s;
+    vector<vector<int>> ans;
     vector<vector<int>> people = {{7,0},{4,4},{7,1},{5,0},{6,1},{5,2}};
-    s.reconstructQueue(people);
-    for(int i=0; i< people.size(); i++) {
-        for(int j=0; j<people[i].size(); j++) {
-            cout << people[i][j];
+    ans = s.reconstructQueue(people);
+    for(int i=0; i< ans.size(); i++) {
+        for(int j=0; j<ans[i].size(); j++) {
+            cout << ans[i][j];
         }
         cout << endl;
     }
